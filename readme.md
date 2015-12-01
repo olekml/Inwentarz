@@ -1,14 +1,14 @@
 <h1>Inwentarz sprzętu komputerowego</h1>
 <hr>
-<p>Aplikacja webowa jaką jest inwentarz sprzętu komputerowego umożliwia podgląd podzespołów komputerowych w poszególnych stacjach roboczych w wybranej pracownii komputerowej. Dzięki tej aplikacji użytkownik z każdego miejsca na świecie może sprawdzić takie parametry jak:</p>
+<p>Aplikacja webowa jaką jest inwentarz sprzętu komputerowego umożliwia podgląd podzespołów komputerowych w poszególnych stacjach roboczych w wybranej pracownii komputerowej. Dzięki tej aplikacji użytkownik z każdego miejsca na świecie może sprawdzić następujce parametry:</p>
 <ul>
-	<li>Procesor</li>
-	<li>Płyta główna</li>
-	<li>Pamięć RAM</li>
-	<li>Zasilacz</li>
-	<li>Dysk twardy</li>
-	<li>Obudowa</li>
-	<li>System operacyjny</li>
+	<li>procesor</li>
+	<li>płyta główna</li>
+	<li>pamięć RAM</li>
+	<li>zasilacz</li>
+	<li>dysk twardy</li>
+	<li>obudowa</li>
+	<li>system operacyjny.</li>
 </ul>
 <hr>
 <h2>Wykorzystane technologie:</h2>
@@ -21,11 +21,11 @@
 	<li>Bootstrap</li>
 </ul>
 <hr>
-<h2>Aplikacja w trakcie tworzenia!</h2>
+<h2>Aplikacja w trakcie rozwoju!</h2>
 <h2>To Do List: </h2>
 <ul>
 	<li>Podgląd poszegółnych stanowisk w pracowniach</li>
-	<li>Podgląd podzespołów komputerowych<li>
+	<li>Podgląd podzespołów komputerowych</li>
 	<li>Panel zarządzania dla administratora</li>
 	<li>Zabezepieczenie aplikacji w wrażliwych miejscach</li>
 </ul>
