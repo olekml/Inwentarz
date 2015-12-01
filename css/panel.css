@@ -1,0 +1,101 @@
+*::after, *::before {
+    box-sizing: unset;
+}
+
+a {
+    color: #343548;
+    text-decoration: none !important;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+a:hover {
+    color:#179672 !important;
+    text-decoration: none !important;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.center {
+    text-align: center;
+    border-top: 3px solid rgb(63, 124, 149);
+    color: #108DA8;
+}
+
+.oddziel {
+    margin-top:25px;
+}
+
+.odstep {
+    margin-top:20px;
+}
+
+/* Kafelki */
+
+.kafelek {
+    height:99px;
+}
+
+/* Kolory kafelek */
+.brazowy {background-color: rgb(53, 53, 53);}
+.brazowy p.srodkuj {color: rgb(70, 172, 237) !important; padding-top:26px;}
+
+.bialy .notif {border-radius: 0px !important;}
+
+.czerwony {background-color:#C33 !important;}
+.czerwony p {color:white; text-align: center; padding-top: 35px; font-size:20px;}
+
+.niebieski {background-color:rgb(10, 127, 230);}
+.niebieski a p, .zolty a p, .zielony a p, .pomaranczowy a p, .fioletowy a p, .morski a p {
+    text-align:center;
+    font-size:20px;
+    padding-top:35px;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.niebieski a:hover p, .zolty a:hover p, .zielony a:hover p, .pomaranczowy a:hover p, .fioletowy a:hover p, .morski a:hover p{
+    color:black;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.zolty {background-color:rgb(215, 215, 78);}
+.zielony {background-color:rgb(56, 152, 56);}
+.pomaranczowy {background-color: rgb(213, 119, 39);}
+.fioletowy {background-color: rgb(112, 67, 155);}
+.fioletowy a {color:white; !important}
+
+.morski {background-color: rgb(48, 137, 133);}
+.morski a {color: rgb(19, 60, 86) !important;}
+
+/* Koniec kolorów kafelek */
+
+body {
+    background-image:url('../imgs/bg.png') !important;
+}
+
+body header .szkola {
+    margin-top:25px;
+}
+
+body header .szkola p, body header .dane-uzytkownika p {
+    text-align: center;
+    color: #FFF;
+    text-shadow: 1px 1px 0px #000;
+    font-size: 20px;
+}
+
+#footer {margin-top:50px;}
