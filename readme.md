@@ -30,7 +30,7 @@
 	<li>zabezepieczenie aplikacji w wrażliwych miejscach</li>
 </ul>
 <h2>Wersja: 0.1</h2>
-<h2>Podgląd online: <a href="http://zs-bielawa.home.pl/Inwentarz">Kliknij tutaj!</a></h2>
+<h2>Podgląd online: <a href="http://rodzyn.pl/Inwentarz">Kliknij tutaj!</a></h2>
 <img src="https://raw.githubusercontent.com/olekml/Inwentarz/master/screenshots/screenshot1.png">
 <hr>
 <h2>Logowanie:</h2>
