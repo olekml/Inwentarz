@@ -4,6 +4,11 @@
 	$inwentarz = new Inwentarz();
     $pracownie = new Pracownie();
 
+    session_start();
+    if(isset($_SESSION['zalogowany']) != "1") {
+        header("Location: index.php");
+    }
+
     $dane_usera = $inwentarz->daneZalogowanego();
 ?>
 <!docType HTML>
@@ -51,7 +56,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="uprawnienia kafelek czerwony">
-                        <p class="uprawnienie srodkuj">Rola: Użytkownik</p>
+                        <p class="uprawnienie srodkuj">Rola: <?php $inwentarz->rolaUsera();?></p>
                     </div>
                 </div>
             </div>
@@ -67,7 +72,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="wyloguj kafelek zolty">
-                        <a href="#">
+                        <?php $inwentarz->wyloguj();?>
+                        <a href="?id=wyloguj">
                             <p>Wyloguj się</p>
                         </a>
                     </div>
@@ -83,7 +89,7 @@
             <div class="row odstep">
                 <div class="col-md-4">
                     <div class="o-projekcie kafelek pomaranczowy">
-                        <a href="#">
+                        <a href="oprojekcie.php">
                             <p>O Projekcie</p>
                         </a>
                     </div>
@@ -111,6 +117,9 @@
                         <p>Lista pracownii:</p>
                     </div>
                 </div>
+            </div>
+            <div class="row odstep">
+                <?php $pracownie->listaPracownii(); ?>
             </div>
         </div>
     </acticle>

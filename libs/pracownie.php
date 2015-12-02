@@ -15,5 +15,25 @@
 
             mysqli_close();
         }
+
+        public function listaPracownii() {
+            require('dbconnect.php');
+
+            $dane = new Pracownie;
+
+            $pracownie = $dane->iloscPracownii();
+
+            $przebieg = -1;
+
+            while($pracownie > 0) {
+                $przebieg++;
+                if($przebieg % 3 == 0 && $przebieg!=0)
+                    echo '</div><div class="row odstep">';
+                $pracownie--;
+
+
+
+            }
+        }
     }
 ?>

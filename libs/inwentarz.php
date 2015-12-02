@@ -2,6 +2,7 @@
 	class Inwentarz {
 		public function logowanie()
 		{
+            ob_start();
             session_start();
 
             require('dbconnect.php');
@@ -30,12 +31,12 @@
                         $_SESSION['uzytkownik_id'] = $user_id['id'];
                         $_SESSION['zalogowany'] = true;
 
-                        header("refresh:5; url=panel.php");
+                        header("refresh:3; url=panel.php");
 
                         echo '<div class="containera">
                             <section class="notif notif-notice">
                                 <h6 class="notif-title">Zalogowano!</h6>
-                                <p>Zalogowano pomyślnie! W ciagu 5 sekund zostaniesz przeniesiony do inwentarza!</p>
+                                <p>Zalogowano pomyślnie! W ciagu 3 sekund zostaniesz przeniesiony do inwentarza!</p>
                             </section>
                         </div>';
                     }
@@ -59,6 +60,30 @@
 
 			$polaczenie->close();
 		}
+
+        public function rolaUsera() {
+            require('dbconnect.php');
+
+            $inwentarz = new Inwentarz();
+            $rola = $inwentarz->daneZalogowanego();
+
+            if($rola['id'] == 1) {
+                echo 'Administrator';
+            } else {
+                echo 'Użytkownik';
+            }
+        }
+
+        public function wyloguj() {
+            if($_GET['id'] == 'wyloguj')
+            {
+                session_start();
+                unset($_SESSION['zalogowany']);
+                unset($_SESSION['uzytkownik_id']);
+                session_destroy();
+                header("Location: http://".$_SERVER['HTTP_HOST']."".dirname($_SERVER['PHP_SELF'])."/index.php");
+            }
+        }
 
         public function wersjaAplikacji() {
             require('dbconnect.php');
@@ -103,17 +128,6 @@
             return mysqli_fetch_assoc($pobierz_info);
 
             $polaczenie->close();
-        }
-
-		public function iloscPracownii() {
-
-		}
-
-        public function wyloguj() {
-            session_start();
-            $_SESSION['zalogowany'] = false;
-            $_SESSION['user_id'] = -1;
-            header('Location: index.php');
         }
 	}
 ?>

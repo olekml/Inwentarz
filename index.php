@@ -6,6 +6,7 @@
 <html lang="pl">
 	<head>
 		<meta charset="utf-8">
+		<meta name="author" content="Dawid Tomas">
 		<title>Inwentarz sprzętu komputerowego</title>
         <link rel="stylesheet" type="text/css" href="css/powiadomienia.css">
 		<link rel="stylesheet" type="text/css" href="css/logowanie.css">

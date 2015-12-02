@@ -1,4 +1,4 @@
-<h1>Inwentarz sprzętu komputerowego</h1>
+﻿<h1>Inwentarz sprzętu komputerowego</h1>
 <hr>
 <p>Aplikacja webowa jaką jest inwentarz sprzętu komputerowego umożliwia podgląd podzespołów komputerowych w poszególnych stacjach roboczych w wybranej pracownii komputerowej. Dzięki tej aplikacji użytkownik z każdego miejsca na świecie może sprawdzić następujce parametry sprzętu komputerowego:</p>
 <ul>
@@ -29,7 +29,7 @@
 	<li>panel zarządzania dla administratora</li>
 	<li>zabezepieczenie aplikacji w wrażliwych miejscach</li>
 </ul>
-<h2>Wersja: 0.1</h2>
+<h2>Wersja: 0.2</h2>
 <h2>Podgląd online: <a href="http://zs-bielawa.home.pl/Inwentarz">Kliknij tutaj!</a></h2>
 
 <hr>
