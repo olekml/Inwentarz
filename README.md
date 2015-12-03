@@ -27,12 +27,13 @@
 <h2>To Do List: </h2>
 <ul>
 	<li>Podgląd poszegółnych stanowisk w pracowniach</li>
-	<li>Podgląd podzespołów komputerowych<li>
+	<li>Podgląd podzespołów komputerowych</li>
 	<li>Panel zarządzania dla administratora</li>
 	<li>Zabezepieczenie aplikacji w wrażliwych miejscach</li>
 </ul>
 <h2>Wersja: 0.3</h2>
-<h2>Podgląd online: <a href="http://zs-bielawa.home.pl/Inwentarz">Kliknij tutaj!</a></h2>
+<h2>Podgląd online: <a href="http://rodzyn.pl/Inwentarz" target="_blank">Kliknij tutaj!</a></h2>
+<hr>
 <h2>Logowanie:</h2>
 <h3>Login: demo</h3>
 <h3>Hasło: demo</h3>
