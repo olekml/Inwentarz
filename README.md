@@ -36,5 +36,6 @@
 <h2>Logowanie:</h2>
 <h3>Login: demo</h3>
 <h3>Hasło: demo</h3>
+<img src="https://raw.githubusercontent.com/olekml/Inwentarz/master/screenshots/screenshot1.png">
 <hr>
 <h2>Autor: Dawid <a href="http://rodzyn.pl" target="_blank">Rodzyn</a> Tomas</h2>
