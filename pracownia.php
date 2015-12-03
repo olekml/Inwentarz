@@ -3,16 +3,12 @@
         <div class="row odstep">
             <div class="col-md-12">
                 <div class="pracownie kafelek czerwony">
-                    <p>O Projekcie:</p>
+                    <p>Stanowiska komputerowe w pracowni <?php echo htmlspecialchars($_GET["id"]); ?></p>
                 </div>
             </div>
         </div>
         <div class="row odstep">
-        	<div class="col-md-12">
-        		<div class="informacje-o-projekcie">
-        			dobre w chuj
-        		</div>
-        	</div>
+            <?php $pracownie->listaStacjiRoboczych(htmlspecialchars($_GET["id"])); ?>
         </div>
     </div>
 </acticle>

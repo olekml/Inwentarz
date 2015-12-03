@@ -1,14 +1,14 @@
-﻿<h1>Inwentarz sprzętu komputerowego</h1>
+<h1>Inwentarz sprzętu komputerowego</h1>
 <hr>
-<p>Aplikacja webowa jaką jest inwentarz sprzętu komputerowego umożliwia podgląd podzespołów komputerowych w poszególnych stacjach roboczych w wybranej pracownii komputerowej. Dzięki tej aplikacji użytkownik z każdego miejsca na świecie może sprawdzić następujce parametry sprzętu komputerowego:</p>
+<p>Aplikacja webowa jaką jest inwentarz sprzętu komputerowego umożliwia podgląd podzespołów komputerowych w poszególnych stacjach roboczych w wybranej pracownii komputerowej. Dzięki tej aplikacji użytkownik z każdego miejsca na świecie może sprawdzić takie parametry jak:</p>
 <ul>
-	<li>procesor</li>
-	<li>płyta główna</li>
-	<li>pamięć RAM</li>
-	<li>zasilacz</li>
-	<li>dysk twardy</li>
-	<li>obudowa</li>
-	<li>system operacyjny.</li>
+	<li>Procesor</li>
+	<li>Płyta główna</li>
+	<li>Pamięć RAM</li>
+	<li>Zasilacz</li>
+	<li>Dysk twardy</li>
+	<li>Obudowa</li>
+	<li>System operacyjny</li>
 </ul>
 <hr>
 <h2>Wykorzystane technologie:</h2>
@@ -21,24 +21,16 @@
 	<li>Bootstrap</li>
 </ul>
 <hr>
-<h2>Aplikacja w trakcie rozwoju!</h2>
+<h2>Aplikacja w trakcie tworzenia!</h2>
 <h2>To Do List: </h2>
 <ul>
-	<li>podgląd poszegółnych stanowisk w pracowniach</li>
-	<li>podgląd podzespołów komputerowych</li>
-	<li>panel zarządzania dla administratora</li>
-	<li>zabezepieczenie aplikacji w wrażliwych miejscach</li>
+	<li>Podgląd poszegółnych stanowisk w pracowniach</li>
+	<li>Podgląd podzespołów komputerowych<li>
+	<li>Panel zarządzania dla administratora</li>
+	<li>Zabezepieczenie aplikacji w wrażliwych miejscach</li>
 </ul>
-<<<<<<< HEAD
-<h2>Wersja: 0.2</h2>
-<h2>Podgląd online: <a href="http://zs-bielawa.home.pl/Inwentarz">Kliknij tutaj!</a></h2>
-
-=======
 <h2>Wersja: 0.1</h2>
-<h2>Podgląd online: <a href="http://rodzyn.pl/Inwentarz" target="_blank">Kliknij tutaj!</a></h2>
-<img src="https://raw.githubusercontent.com/olekml/Inwentarz/master/screenshots/screenshot1.png">
->>>>>>> origin/master
-<hr>
+<h2>Podgląd online: <a href="http://zs-bielawa.home.pl/Inwentarz">Kliknij tutaj!</a></h2>
 <h2>Logowanie:</h2>
 <h3>Login: demo</h3>
 <h3>Hasło: demo</h3>
