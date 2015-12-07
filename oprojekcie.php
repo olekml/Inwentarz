@@ -10,7 +10,7 @@
         <div class="row odstep">
         	<div class="col-md-12">
         		<div class="informacje-o-projekcie">
-        			dobre w chuj
+
         		</div>
         	</div>
         </div>

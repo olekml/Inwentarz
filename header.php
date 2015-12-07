@@ -27,7 +27,7 @@ $dane_usera = $inwentarz->daneZalogowanego();
     <script src="js/inwentarz.js"></script>
 </head>
 <body>
-<header>
+<header id="header">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

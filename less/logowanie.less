@@ -1,0 +1,182 @@
+// Kolory
+@szary-kolor: rgba(75, 75, 75, 0.8);
+
+*::after, *::before {
+  box-sizing: unset !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+/* Back to Top */
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: @szary-kolor url(../imgs/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+
+  .cd-is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .cd-fade-out {
+    opacity: 0.5;
+  }
+
+  .cd-is-visible, .cd-fade-out, .no-touch &:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+  }
+
+  .no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1;
+  }
+}
+
+/* Główny CSS */
+
+body {
+  background-image:url('../imgs/bg.png');
+
+  a {
+    color: #343548 !important;
+    text-decoration: none !important;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+
+    &:hover {
+      color:#179672 !important;
+      text-decoration: none;
+      -webkit-transition: all 500ms;
+      -moz-transition: all 500ms;
+      -ms-transition: all 500ms;
+      -o-transition: all 500ms;
+      transition: all 500ms;
+    }
+  }
+
+  .center {
+    text-align: center;
+    border-top: 3px solid rgb(63, 124, 149);
+    color: #108DA8;
+  }
+
+  .tekst {
+    margin-top:25px;
+
+    p {
+      text-align: center;
+      color: rgba(222, 222, 222, 0.94);
+      text-shadow: 1px 1px 0px #000;
+      font-size: 20px;
+    }
+  }
+
+  .logowanie {
+    width: 450px;
+    height: 285px;
+    overflow: hidden;
+    background: #1e1e1e;
+    border-radius: 6px;
+    margin: 25px auto;
+    box-shadow: 0px 0px 50px rgba(0,0,0,.8);
+
+    .tytul {
+      width: 458px;
+      height: 14px;
+      padding-top: 13px;
+      padding-bottom: 30px;
+      font-size: 14px;
+      text-align: center;
+      color: #bfbfbf;
+      font-weight: bold;
+      background: #121212;
+      border: #2d2d2d solid 1px;
+      margin-bottom: 25px;
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
+      font-family: Arial;
+    }
+
+    form {
+      width: 380px;
+      height: auto;
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: auto;
+
+      input[type=text], input[type=password] {
+        width: 380px;
+        font-size: 12px;
+        padding:12px 0px 14px 40px;
+        border: none;
+        color: #bfbfbf;
+        background: #141414;
+        outline: none;
+        margin: 0;
+      }
+
+      input[type=text], input[type=password] {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border-top: #0b0b0b solid 1px;
+        margin:1px;
+      }
+
+      input[type=password] {
+        border-bottom: #353535 1px solid;
+      }
+
+      .loguj {
+        width: 380px;
+        height: 12px;
+        display: block;
+        padding:14px 0px 28px 0px;
+        border-radius: 6px;
+        border: none;
+        border-top: #4eb2a8 1px solid;
+        border-bottom: #161616 1px solid;
+        background: #349e92;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        color: #FFF;
+        text-shadow: 0 -1px #1d7464, 0 1px #7bb8b3;
+        font-family: Arial;
+        margin-top: 30px;
+      }
+    }
+  }
+}

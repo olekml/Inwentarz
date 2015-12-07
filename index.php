@@ -11,7 +11,9 @@
 		<link rel="stylesheet" type="text/css" href="css/logowanie.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-        <script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/inwentarz.js"></script>
 	</head>
 	<body>
 		<div class="tekst">
@@ -29,5 +31,6 @@
 		<?php
             include('footer.php');
         ?>
+		<script src="js/odliczanie.js"></script>
 	</body>
 </html>

@@ -37,6 +37,29 @@
                    </div>
                 ';
 
+            // Drugi wiersz
+            echo '<div class="row odstep">
+                    <div class="col-md-4">
+                        <div class="plyta-glowna kafelek niebieski">
+                            <p class="plyta-glowna">Płyta główna:</p>
+                            <p class="dane-plyta-glowna">'.$dane_stanowiska['mobo_producent'].'<br>'.$dane_stanowiska['mobo_model'].'</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="zasilacz kafelek zielony">
+                            <p class="zasilacz">Zasilacz:</p>
+                            <p class="dane-zasilacz">'.$dane_stanowiska['zasilacz_producent'].'<br>'.$dane_stanowiska['zasilacz_model'].' ('.$dane_stanowiska['zasilacz_moc'].')</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="karta-graficzna kafelek pomaranczowy">
+                            <p class="karta-graficzna">Karta graficzna:</p>
+                            <p class="dane-karta-graficzna">'.$dane_stanowiska['grafika_producent'].'<br>'.$dane_stanowiska['grafika_model'].'</p>
+                        </div>
+                    </div>
+                  </div>
+            ';
+
             $polaczenie->close();
         }
     }

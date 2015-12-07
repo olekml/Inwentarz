@@ -1,5 +1,6 @@
 // By Dawid 'Rodzyn' Tomas
 
+
 //Script Back To Top by https://codyhouse.co/gem/back-to-top/
 jQuery(document).ready(function($){
     var offset = 100,
