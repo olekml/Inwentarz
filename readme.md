@@ -26,7 +26,7 @@
 <h2>To Do List: </h2>
 <ul>
 	<li>Podgląd poszegółnych stanowisk w pracowniach</li>
-	<li>Podgląd podzespołów komputerowych<li>
+	<li>Podgląd podzespołów komputerowych</li>
 	<li>Panel zarządzania dla administratora</li>
 	<li>Zabezepieczenie aplikacji w wrażliwych miejscach</li>
 </ul>
@@ -35,6 +35,6 @@
 <h2>Logowanie:</h2>
 <h3>Login: demo</h3>
 <h3>Hasło: demo</h3>
-<img src="http://rodzyn.pl/Inwentarz/screenshot/screenshot1.png">
+<img src="http://rodzyn.pl/Inwentarz/screenshots/screenshot1.png">
 <hr>
 <h2>Autor: Dawid <a href="http://rodzyn.pl" target="_blank">Rodzyn</a> Tomas</h2>
