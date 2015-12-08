@@ -31,7 +31,7 @@
   margin-top: 25px;
 }
 .odstep {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 body {
   background-image: url('../imgs/bg.png') !important;
@@ -75,8 +75,10 @@ body .center {
   color: #108DA8;
 }
 body .administrator {
-  padding-top: 18px;
-  padding-left: 5px;
+  padding: 10px 0px 0px 10px;
+}
+body .lista-userow a p {
+  color: white !important;
 }
 body p.procesor,
 body p.ram,
@@ -89,6 +91,7 @@ body p.karta-graficzna {
   font-size: 16px;
 }
 body p.dane-procesora,
+body p.dane-plyta-glowna,
 body p.dane-ram {
   padding-top: 0px;
   text-align: center;
@@ -96,19 +99,31 @@ body p.dane-ram {
   text-shadow: 0px 1px 1px #000001;
 }
 body p.dane-dysk,
-body p.dane-plyta-glowna,
 body p.dane-zasilacz,
 body p.dane-karta-graficzna {
   padding-top: 0px;
   text-align: center;
   font-size: 16px;
-  text-shadow: 0px 1px 1px #BA9595;
+  text-shadow: 0px 1px 1px #CFCFCF;
 }
 body p.dane-dysk {
   text-shadow: 0px 1px 1px #CEC6C6;
 }
 body .informacje-o-projekcie {
   background-color: #ffffff;
+  padding-bottom: 15px;
+}
+body .informacje-o-projekcie h1 {
+  padding-top: 10px;
+  text-align: center;
+}
+body .informacje-o-projekcie h2 {
+  text-align: center;
+}
+body .informacje-o-projekcie p {
+  font-size: 14px;
+  text-align: justify;
+  padding: 5px 10px;
 }
 body .kafelek {
   height: 99px;
@@ -204,6 +219,9 @@ body .czerwony a:hover p {
 body .niebieski {
   background-color: #0a7fe6;
 }
+body .niebieski p {
+  color: #103b6c;
+}
 body .niebieski a p {
   text-align: center;
   font-size: 20px;
@@ -224,6 +242,9 @@ body .niebieski a:hover p {
 }
 body .zolty {
   background-color: #d7d74e;
+}
+body .zolty p {
+  color: #ab8311;
 }
 body .zolty a p {
   text-align: center;
@@ -246,6 +267,9 @@ body .zolty a:hover p {
 body .zielony {
   background-color: #389838;
 }
+body .zielony p {
+  color: #094116;
+}
 body .zielony a p {
   text-align: center;
   font-size: 20px;
@@ -266,6 +290,9 @@ body .zielony a:hover p {
 }
 body .pomaranczowy {
   background-color: #d57727;
+}
+body .pomaranczowy p {
+  color: #ffd41b;
 }
 body .pomaranczowy a p {
   text-align: center;
@@ -312,6 +339,9 @@ body .fioletowy p {
 }
 body .morski {
   background-color: #308985;
+}
+body .morski p {
+  color: aqua !important;
 }
 body .morski a p {
   text-align: center;

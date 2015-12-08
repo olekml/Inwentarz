@@ -30,7 +30,7 @@
 }
 
 .oddziel {margin-top:25px;}
-.odstep {margin-top:20px;}
+.odstep {margin-top:15px;}
 
 body {
   background-image:url('../imgs/bg.png') !important;
@@ -77,8 +77,15 @@ body {
   // Górne menu
 
   .administrator {
-    padding-top: 18px;
-    padding-left: 5px;
+    padding:10px 0px 0px 10px;
+  }
+
+  .lista-userow {
+    a {
+      p {
+        color: white !important;
+      }
+    }
   }
 
   // Stanowisko
@@ -88,24 +95,43 @@ body {
     font-size:16px;
   }
 
-  p.dane-procesora, p.dane-ram {
+  p.dane-procesora, p.dane-plyta-glowna, p.dane-ram {
     padding-top:0px;
     text-align:center;
     font-size:16px;
     text-shadow: 0px 1px 1px rgba(0,0,1,1);
   }
 
-  p.dane-dysk, p.dane-plyta-glowna, p.dane-zasilacz, p.dane-karta-graficzna {
+  p.dane-dysk, p.dane-zasilacz, p.dane-karta-graficzna {
     padding-top:0px;
     text-align:center;
     font-size:16px;
-    text-shadow: 0px 1px 1px #BA9595;
+    text-shadow: 0px 1px 1px #CFCFCF;
   }
 
   p.dane-dysk {text-shadow: 0px 1px 1px #CEC6C6;}
 
   // Informacje o projekcie
-  .informacje-o-projekcie {background-color:rgba(255,255,255,1);}
+  .informacje-o-projekcie {
+    background-color:rgba(255,255,255,1);
+
+    h1 {
+      padding-top:10px;
+      text-align:center;
+    }
+
+    h2 {
+      text-align:center;
+    }
+
+    p {
+      font-size:14px;
+      text-align: justify;
+      padding:5px 10px;
+    }
+
+    padding-bottom:15px;
+  }
 
   // Kafelki
 
@@ -175,21 +201,32 @@ body {
 
   .niebieski {
     background-color: rgb(10, 127, 230);
+    p {color: rgb(16, 59, 108);}
     .kafelki-tekst;
   }
 
   .zolty {
     background-color:rgb(215, 215, 78);
+    p {
+      color: rgb(171, 131, 17);
+    }
     .kafelki-tekst;
   }
 
   .zielony {
     background-color:rgb(56, 152, 56);
+    p {
+      color: #094116;
+    }
+
     .kafelki-tekst;
   }
 
   .pomaranczowy {
     background-color: rgb(213, 119, 39);
+    p {
+      color:rgba(255, 212, 27, 1);
+    }
     .kafelki-tekst;
   }
 
@@ -203,6 +240,8 @@ body {
 
   .morski {
     background-color: rgb(48, 137, 133);
+    p {color: aqua !important;}
+
     .kafelki-tekst;
     a {
       color: rgb(19, 60, 86) !important;

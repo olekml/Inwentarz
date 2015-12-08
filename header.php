@@ -71,7 +71,7 @@ $dane_usera = $inwentarz->daneZalogowanego();
         <div class="row odstep">
             <div class="col-md-4">
                 <div class="edytuj-profil kafelek niebieski">
-                    <a href="#"><p class="srodek">Edytuj swój profil</p></a>
+                    <a href="#"><p class="srodek">Informacje o twoim koncie</p></a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -100,7 +100,7 @@ $dane_usera = $inwentarz->daneZalogowanego();
             </div>
             <div class="col-md-4">
                 <div class="changelog kafelek fioletowy">
-                    <a href="#">
+                    <a href="changelog.php">
                         <p>Lista zmian</p>
                     </a>
                 </div>

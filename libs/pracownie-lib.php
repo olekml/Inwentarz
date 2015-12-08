@@ -46,7 +46,7 @@
                             <a href="pracownia.php?id='.$pracownie_nazwy['numer'].'">
                                 <p>Pracownia '.$pracownie_nazwy['numer'].'</p>
                             </a>
-                            <p class="administrator">(Administrator: '.$pracownie_nazwy['imie_admina'].' '.$pracownie_nazwy['nazwisko_admina'].')</p>
+                            <p class="administrator">Administrator: '.$pracownie_nazwy['imie_admina'].' '.$pracownie_nazwy['nazwisko_admina'].'</p>
                         </div>
                     </div>
                 ';
